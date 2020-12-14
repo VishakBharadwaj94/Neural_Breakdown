@@ -6,8 +6,8 @@
 # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
 # https://learnxinyminutes.com/docs/yaml/
 
-title: fastpages
-description: An easy to use blogging platform with support for Jupyter Notebooks.
+title: Neural Breakdown
+description: Breaking down everything Deep Learning
 github_username: VishakBharadwaj94
 # you can comment the below line out if your repo name is not different than your baseurl
 github_repo: "Neural_Breakdown"
@@ -40,7 +40,7 @@ baseurl: "/Neural_Breakdown" # the subpath of your site, e.g. "/blog".
 minima:
   social_links:
     twitter: fastdotai
-    github: fastai
+    github: https://www.github.com/vishakbharadwaj94
 
 # Set this to true to get LaTeX math equation support
 use_math: 

@@ -4,9 +4,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>INTERPRETING MACHINE LEARNING MODEL PREDICTIONS | Neural Breakdown</title>
+<title>Interpreting Machine Learning Model Predictions | Neural Breakdown</title>
 <meta name="generator" content="Jekyll v4.1.1" />
-<meta property="og:title" content="INTERPRETING MACHINE LEARNING MODEL PREDICTIONS" />
+<meta property="og:title" content="Interpreting Machine Learning Model Predictions" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="An intro to understanding why models work the way they do" />
 <meta property="og:description" content="An intro to understanding why models work the way they do" />
@@ -16,7 +16,7 @@
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2020-03-07T00:00:00-06:00" />
 <script type="application/ld+json">
-{"url":"https://vishakbharadwaj94.github.io/Neural_Breakdown/2020/03/07/explanations.html","@type":"BlogPosting","headline":"INTERPRETING MACHINE LEARNING MODEL PREDICTIONS","dateModified":"2020-03-07T00:00:00-06:00","datePublished":"2020-03-07T00:00:00-06:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://vishakbharadwaj94.github.io/Neural_Breakdown/2020/03/07/explanations.html"},"description":"An intro to understanding why models work the way they do","@context":"https://schema.org"}</script>
+{"url":"https://vishakbharadwaj94.github.io/Neural_Breakdown/2020/03/07/explanations.html","@type":"BlogPosting","headline":"Interpreting Machine Learning Model Predictions","dateModified":"2020-03-07T00:00:00-06:00","datePublished":"2020-03-07T00:00:00-06:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://vishakbharadwaj94.github.io/Neural_Breakdown/2020/03/07/explanations.html"},"description":"An intro to understanding why models work the way they do","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/Neural_Breakdown/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://vishakbharadwaj94.github.io/Neural_Breakdown/feed.xml" title="Neural Breakdown" /><link rel="shortcut icon" type="image/x-icon" href="/Neural_Breakdown/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
@@ -71,7 +71,7 @@ window.onload = wrap_img;
         <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">INTERPRETING MACHINE LEARNING MODEL PREDICTIONS</h1><p class="page-description">An intro to understanding why models work the way they do</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2020-03-07T00:00:00-06:00" itemprop="datePublished">
+    <h1 class="post-title p-name" itemprop="name headline">Interpreting Machine Learning Model Predictions</h1><p class="page-description">An intro to understanding why models work the way they do</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2020-03-07T00:00:00-06:00" itemprop="datePublished">
         Mar 7, 2020
       </time>
        • <span class="read-time" title="Estimated read time">
@@ -37639,25 +37639,25 @@ Name: 122, dtype: float64</pre>
 /***/ })
 /******/ ]);
 //# sourceMappingURL=bundle.js.map </script></head><body>
-        <div class="lime top_div" id="top_div8EECE76WRSH778I"></div>
+        <div class="lime top_div" id="top_divBXDF6VBZF2RL9E4"></div>
         
         <script>
-        var top_div = d3.select('#top_div8EECE76WRSH778I').classed('lime top_div', true);
+        var top_div = d3.select('#top_divBXDF6VBZF2RL9E4').classed('lime top_div', true);
         
         
                     var pp_div = top_div.append('div')
                                         .classed('lime predicted_value', true);
                     var pp_svg = pp_div.append('svg').style('width', '100%');
-                    var pp = new lime.PredictedValue(pp_svg, 14.154354095458984, -7.586258888244629, 144.3516082763672);
+                    var pp = new lime.PredictedValue(pp_svg, 14.154354095458984, -11.440251350402832, 132.28433227539062);
                     
         var exp_div;
             var exp = new lime.Explanation(["negative", "positive"]);
         
             exp_div = top_div.append('div').classed('lime explanation', true);
-            exp.show([["B", 7.265957091850876], ["TAX", -5.4687684512519334], ["LSTAT", -5.072311410897097], ["DIS", -0.9333575147659656], ["INDUS", -0.9316056817678874], ["RAD", 0.7140386090533934], ["AGE", 0.6865377845873483], ["ZN", 0.5351944519330306], ["PTRATIO", -0.49242781328298874], ["RM", 0.1657950778167841]], 1, exp_div);
+            exp.show([["B", 7.006809479263657], ["TAX", -5.380313444213103], ["LSTAT", -5.044711989059112], ["INDUS", -0.9362024774760577], ["DIS", -0.7038134362534261], ["AGE", 0.6880855002056833], ["PTRATIO", -0.6402824643761097], ["ZN", 0.5933216750439599], ["RAD", 0.44271432416039924], ["RM", 0.28526407014375604]], 1, exp_div);
             
         var raw_div = top_div.append('div');
-            exp.show_raw_tabular([["B", "378.09", 7.265957091850876], ["TAX", "188.00", -5.4687684512519334], ["LSTAT", "17.93", -5.072311410897097], ["DIS", "2.09", -0.9333575147659656], ["INDUS", "25.65", -0.9316056817678874], ["RAD", "2.00", 0.7140386090533934], ["AGE", "92.90", 0.6865377845873483], ["ZN", "0.00", 0.5351944519330306], ["PTRATIO", "19.10", -0.49242781328298874], ["RM", "5.96", 0.1657950778167841]], 1, raw_div);
+            exp.show_raw_tabular([["B", "378.09", 7.006809479263657], ["TAX", "188.00", -5.380313444213103], ["LSTAT", "17.93", -5.044711989059112], ["INDUS", "25.65", -0.9362024774760577], ["DIS", "2.09", -0.7038134362534261], ["AGE", "92.90", 0.6880855002056833], ["PTRATIO", "19.10", -0.6402824643761097], ["ZN", "0.00", 0.5933216750439599], ["RAD", "2.00", 0.44271432416039924], ["RM", "5.96", 0.28526407014375604]], 1, raw_div);
         
         </script>
         </body></html>
@@ -37729,16 +37729,6 @@ Name: 122, dtype: float64</pre>
 
 <div class="output_area">
 
-<div class="output_subarea output_text output_error">
-<pre>
-<span class="ansi-red-fg">---------------------------------------------------------------------------</span>
-<span class="ansi-red-fg">RuntimeError</span>                              Traceback (most recent call last)
-<span class="ansi-red-fg">RuntimeError</span>: module compiled against API version 0xe but this version of numpy is 0xd</pre>
-</div>
-</div>
-
-<div class="output_area">
-
 <div class="output_subarea output_stream output_stderr output_text">
 <pre>Using 506 background data samples could cause slower run times. Consider using shap.sample(data, K) or shap.kmeans(data, K) to summarize the background as K samples.
 </pre>
@@ -37748,9 +37738,10 @@ Name: 122, dtype: float64</pre>
 <div class="output_area">
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>shap_values: [[-0.06761914 -0.73002219 -2.72363554 -0.05835915  0.01449517 -0.14644992
-   1.14652621  0.84940537 -0.35136132  4.67198019 -0.19403559  0.19909649
-  -4.03115888]]
+<pre>shap_values: [[-6.97313932e-02 -7.40173258e-01 -2.72785574e+00 -5.37045645e-02
+  -9.85263754e-04 -1.59483442e-01  1.17676905e+00  8.57806576e-01
+  -3.45635606e-01  4.66582391e+00 -1.81441254e-01  2.10089121e-01
+  -4.05261644e+00]]
 expected_value: [15.57549335]
 </pre>
 </div>
